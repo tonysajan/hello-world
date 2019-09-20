@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1BC11D46-B082-479A-BEF8-C046BD71F0F6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crime_Info</RootNamespace>
+    <AssemblyName>Crime_Info</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addemployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addemployee.Designer.cs">
+      <DependentUpon>addemployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_user.Designer.cs">
+      <DependentUpon>add_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="complaintregister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="complaintregister.Designer.cs">
+      <DependentUpon>complaintregister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FIRregister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FIRregister.Designer.cs">
+      <DependentUpon>FIRregister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chargesheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chargesheet.Designer.cs">
+      <DependentUpon>chargesheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="judgementdetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="judgementdetails.Designer.cs">
+      <DependentUpon>judgementdetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="criminaldetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="criminaldetails.Designer.cs">
+      <DependentUpon>criminaldetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prisonerdetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prisonerdetails.Designer.cs">
+      <DependentUpon>prisonerdetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_prisoner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_prisoner.Designer.cs">
+      <DependentUpon>view_prisoner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_criminal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_criminal.Designer.cs">
+      <DependentUpon>view_criminal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_judgement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_judgement.Designer.cs">
+      <DependentUpon>view_judgement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_chargesheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_chargesheet.Designer.cs">
+      <DependentUpon>view_chargesheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_fir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_fir.Designer.cs">
+      <DependentUpon>view_fir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_list.Designer.cs">
+      <DependentUpon>user_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_complaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_complaint.Designer.cs">
+      <DependentUpon>view_complaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_employee.Designer.cs">
+      <DependentUpon>view_employee.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addemployee.resx">
+      <DependentUpon>addemployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_user.resx">
+      <DependentUpon>add_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="complaintregister.resx">
+      <DependentUpon>complaintregister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FIRregister.resx">
+      <DependentUpon>FIRregister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chargesheet.resx">
+      <DependentUpon>chargesheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="judgementdetails.resx">
+      <DependentUpon>judgementdetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="criminaldetails.resx">
+      <DependentUpon>criminaldetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prisonerdetails.resx">
+      <DependentUpon>prisonerdetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_prisoner.resx">
+      <DependentUpon>view_prisoner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_criminal.resx">
+      <DependentUpon>view_criminal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_judgement.resx">
+      <DependentUpon>view_judgement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_chargesheet.resx">
+      <DependentUpon>view_chargesheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_fir.resx">
+      <DependentUpon>view_fir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_list.resx">
+      <DependentUpon>user_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_complaint.resx">
+      <DependentUpon>view_complaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_employee.resx">
+      <DependentUpon>view_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="temp\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
