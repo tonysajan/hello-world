@@ -133,5 +133,10 @@ namespace Crime_Info
             frm.Text = "View Prisoner Details";
             frm.Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
